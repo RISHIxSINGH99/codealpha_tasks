@@ -1,0 +1,19 @@
+{
+  "name": "social-media-app",
+  "version": "1.0.0",
+  "description": "A mini social media platform with JSON file storage",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["social-media", "express", "beginner"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "uuid": "^11.0.5"
+  }
+}

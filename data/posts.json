@@ -1,0 +1,29 @@
+[
+  {
+    "id": "cf6cee77-fd9c-405d-ba56-d1d730aba75d",
+    "userId": "efbc8ca8-5ca0-48ae-a99e-8b51ca40652b",
+    "username": "rishi",
+    "content": "hello",
+    "likes": [
+      "efbc8ca8-5ca0-48ae-a99e-8b51ca40652b",
+      "dea69e72-ad3d-4d49-97a5-03a5bbe35c0f"
+    ],
+    "comments": [
+      {
+        "id": "f02a4834-a254-4d6d-980b-43a172b9975e",
+        "userId": "efbc8ca8-5ca0-48ae-a99e-8b51ca40652b",
+        "username": "rishi",
+        "content": "nice",
+        "createdAt": "2026-06-24T09:39:25.074Z"
+      },
+      {
+        "id": "4b1a7252-409c-47e2-b622-292aa6e57bfd",
+        "userId": "dea69e72-ad3d-4d49-97a5-03a5bbe35c0f",
+        "username": "testuser",
+        "content": "nice",
+        "createdAt": "2026-06-24T09:40:54.714Z"
+      }
+    ],
+    "createdAt": "2026-06-24T09:39:16.422Z"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "efbc8ca8-5ca0-48ae-a99e-8b51ca40652b",
+    "username": "rishi",
+    "email": "rishi6@gmail.com",
+    "password": "$2a$10$vt1c1Xioqm1q.E85JrDqf.LhocIH8l5Ttbk6/SZxQKROKaI6pIamS",
+    "bio": "",
+    "followers": [
+      "dea69e72-ad3d-4d49-97a5-03a5bbe35c0f"
+    ],
+    "following": [],
+    "createdAt": "2026-06-24T09:37:03.890Z"
+  },
+  {
+    "id": "dea69e72-ad3d-4d49-97a5-03a5bbe35c0f",
+    "username": "testuser",
+    "email": "test@test.com",
+    "password": "$2a$10$NBFq8o.nFHEKjnnI6m8HV.zpf4YtsNXMFzuZPWtsyB9CPUmwQXHAC",
+    "bio": "",
+    "followers": [],
+    "following": [
+      "efbc8ca8-5ca0-48ae-a99e-8b51ca40652b"
+    ],
+    "createdAt": "2026-06-24T09:40:32.520Z"
+  }
+]

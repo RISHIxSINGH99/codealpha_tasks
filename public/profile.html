@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile — ConnectHub</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <nav class="navbar" id="navbar"></nav>
+
+  <main class="page-container">
+    <div id="message" class="message"></div>
+
+    <div class="profile-header card" id="profileHeader">
+      <div class="profile-loading">Loading profile...</div>
+    </div>
+
+    <div class="profile-content">
+      <div class="card" id="bioSection" style="display:none">
+        <h3>Edit Bio</h3>
+        <form id="bioForm">
+          <div class="form-group">
+            <textarea id="bioInput" placeholder="Tell people about yourself..." maxlength="160"></textarea>
+            <span class="char-hint"><span id="bioCharCount">0</span>/160</span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-sm">Save Bio</button>
+        </form>
+      </div>
+
+      <div class="section-title">
+        <h2>Posts</h2>
+        <span id="postCountLabel" class="badge">0</span>
+      </div>
+
+      <div id="profilePosts">
+        <div class="empty-state">
+          <div class="empty-icon">📭</div>
+          <strong>No posts yet</strong>
+          <p>This user hasn't shared anything yet.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/js/utils.js"></script>
+  <script src="/js/profile.js"></script>
+</body>
+</html>

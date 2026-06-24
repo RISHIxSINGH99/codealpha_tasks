@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feed — ConnectHub</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <nav class="navbar" id="navbar"></nav>
+
+  <main class="page-container">
+    <div id="message" class="message"></div>
+
+    <div class="layout-grid">
+      <aside class="sidebar">
+        <div class="sidebar-card">
+          <div id="sidebarUser" class="sidebar-user"></div>
+        </div>
+        <div class="sidebar-card stats-card">
+          <h3>Your Stats</h3>
+          <div class="mini-stats" id="miniStats">
+            <div class="mini-stat"><span id="statPosts">0</span><label>Posts</label></div>
+            <div class="mini-stat"><span id="statFollowers">0</span><label>Followers</label></div>
+            <div class="mini-stat"><span id="statFollowing">0</span><label>Following</label></div>
+          </div>
+        </div>
+      </aside>
+
+      <div class="main-content">
+        <div class="card compose-card">
+          <div class="compose-header">
+            <div id="composeAvatar"></div>
+            <h2>What's on your mind?</h2>
+          </div>
+          <form id="createPostForm">
+            <div class="form-group">
+              <textarea id="postContent" placeholder="Share an update with your network..." required maxlength="500"></textarea>
+            </div>
+            <div class="compose-footer">
+              <span class="char-hint">Max 500 characters</span>
+              <button type="submit" class="btn btn-primary">Post</button>
+            </div>
+          </form>
+        </div>
+
+        <div id="postsList">
+          <div class="empty-state">
+            <div class="empty-icon">📝</div>
+            <strong>No posts yet</strong>
+            <p>Be the first to share something with the community!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/js/utils.js"></script>
+  <script src="/js/feed.js"></script>
+</body>
+</html>
